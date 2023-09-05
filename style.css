@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a{
+    display: inline-block;
+}
+.all{
+    min-height: 100vh;
+    padding: 70px;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.input {
+    border-right: none;
+    padding: 15px 30px;
+}
+.inpput, .btn {
+    font-size: 32px;
+    padding: 10px;
+    border: 4px solid black;
+    outline: none;
+}
+.btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+.screen {
+    background-color: black;
+    color: yellow;
+    font-size: 40px;
+    padding: 50px;
+    min-height: 200px;
+}
